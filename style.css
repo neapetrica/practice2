@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+body {
+  background: linear-gradient(90deg, #000428, #004e92);
+  font-family: "Press Start 2P", sans-serif;
+  color: #fff;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  background-color: #222;
+  border: 5px solid #00ff00;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 0 20px #00ff00;
+  border-radius: 10px;
+}
+
+input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #00ff00;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  font-family: "Press Start 2P", sans-serif;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #00ff00;
+  color: #000;
+  cursor: pointer;
+  font-family: "Press Start 2P", sans-serif;
+  text-transform: uppercase;
+  box-shadow: 0 0 10px #00ff00;
+}
+
+button:hover {
+  background-color: #ff00ff;
+  box-shadow: 0 0 15px #ff00ff;
+}
+
+#resultContainer {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Press Start 2P", sans-serif;
+}
+
+#resultContainer button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Press Start 2P", sans-serif;
+}
+
+#resultContainer button:hover {
+  background-color: #ff6600;
+}
